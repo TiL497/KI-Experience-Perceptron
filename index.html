@@ -1,0 +1,54 @@
+
+<!--out: playground.html, pretty: true--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Perceptron KI-Experience DIS</title>
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script type="text/javascript" src="src/js/d3.js"></script>
+    <script src="src/js/playground.js" type="module"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div id="text"></div>
+      <div id="logo_div"><img id="logo"></div>
+      <div id="trainingtable"></div>
+    </div>
+    <div id="main">
+      <svg>
+        <g id="input">
+          <g class="activations"></g>
+        </g>
+        <g id="outputs"></g>
+        <g id="edges">
+          <g class="edges"></g>
+          <g class="activations"></g>
+          <g class="gradient"></g>
+          <g class="parameters"></g>
+          <g class="factorlines"></g>
+        </g>
+        <g id="nodes">
+          <g class="nodes"></g>
+          <g class="gradient"></g>
+          <g class="target"></g>
+          <g class="parameters"></g>
+          <g class="values"></g>
+        </g>
+        <g id="parameters">
+          <g class="input"></g>
+          <g class="edges"></g>
+          <g class="nodes"></g>
+        </g>
+        <g id="tooltip"></g>
+      </svg>
+      <div id="tablediv">
+        <div id="tabletop"></div>
+        <div id="table">
+          <table id="truthtable"></table>
+        </div>
+        <div id="tablebot"></div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 25px 30px;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
